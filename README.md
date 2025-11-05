@@ -75,7 +75,7 @@ The app currently uses local JSON data for development. To connect to a real API
 
 ## Screenshots
 
-*(Add screenshots of your app here)*
+https://github.com/user-attachments/assets/a334035d-9b33-42c3-8381-46c948560383
 
 ## License
 
