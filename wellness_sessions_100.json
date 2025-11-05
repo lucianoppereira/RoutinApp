@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "title": "Morning Yoga Flow",
+    "category": "Yoga",
+    "duration": 45,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop",
+    "description": "Start your day with an energizing yoga flow that awakens your body and mind. This dynamic sequence combines breath work with gentle stretches and strengthening poses to prepare you for the day ahead.",
+    "instructor": "Sarah Mitchell"
+  },
+  {
+    "id": 2,
+    "title": "Guided Meditation for Beginners",
+    "category": "Meditation",
+    "duration": 20,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=300&fit=crop",
+    "description": "Perfect for those new to meditation, this session introduces basic mindfulness techniques and breathing exercises. Learn to quiet your mind and find inner peace through gentle guidance and simple practices.",
+    "instructor": "Michael Chen"
+  },
+  {
+    "id": 3,
+    "title": "Deep Tissue Massage Therapy",
+    "category": "Massage",
+    "duration": 90,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400&h=300&fit=crop",
+    "description": "Experience relief from chronic muscle tension with this therapeutic deep tissue massage. Using firm pressure and slow strokes, this treatment targets deep layers of muscle and connective tissue to release persistent knots.",
+    "instructor": "Amanda Rodriguez"
+  },
+  {
+    "id": 4,
+    "title": "Mindful Breathing Practice",
+    "category": "Mindfulness",
+    "duration": 15,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1508672019048-805c876b67e2?w=400&h=300&fit=crop",
+    "description": "A focused session on breath awareness and control. Learn powerful breathing techniques to reduce stress, increase energy, and enhance mental clarity through conscious breath work.",
+    "instructor": "David Thompson"
+  },
+  {
+    "id": 5,
+    "title": "Freestyle Swimming Session",
+    "category": "Swimming",
+    "duration": 60,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=400&h=300&fit=crop",
+    "description": "Improve your freestyle technique and build endurance in this comprehensive swimming session. Focus on stroke mechanics, breathing patterns, and efficient movement through the water.",
+    "instructor": "Marcus Johnson"
+  },
+  {
+    "id": 6,
+    "title": "Zumba Dance Workout",
+    "category": "Dance",
+    "duration": 50,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=300&fit=crop",
+    "description": "Get your heart pumping with this high-energy Zumba class! Combine Latin and international music with dance moves for a fun, effective workout that doesn't feel like exercise.",
+    "instructor": "Isabella Garcia"
+  },
+  {
+    "id": 7,
+    "title": "HIIT Cardio Blast",
+    "category": "Fitness",
+    "duration": 35,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=300&fit=crop",
+    "description": "Maximize your calorie burn with this intense high-intensity interval training session. Alternate between explosive bursts of activity and short recovery periods to boost metabolism and build strength.",
+    "instructor": "Jake Williams"
+  },
+  {
+    "id": 8,
+    "title": "Power Yoga Challenge",
+    "category": "Yoga",
+    "duration": 60,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=400&h=300&fit=crop",
+    "description": "Push your limits with this vigorous yoga practice that builds strength, flexibility, and endurance. Fast-paced flows and challenging holds will test your physical and mental stamina.",
+    "instructor": "Rachel Kim"
+  },
+  {
+    "id": 9,
+    "title": "Evening Relaxation Meditation",
+    "category": "Meditation",
+    "duration": 25,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=400&h=300&fit=crop",
+    "description": "Wind down from your day with this calming evening meditation. Release tension, quiet your mind, and prepare for restful sleep through guided visualization and progressive relaxation.",
+    "instructor": "Emma Wilson"
+  },
+  {
+    "id": 10,
+    "title": "Swedish Massage Experience",
+    "category": "Massage",
+    "duration": 75,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=400&h=300&fit=crop",
+    "description": "Enjoy the classic relaxation of Swedish massage with long, flowing strokes that promote circulation and ease muscle tension. This gentle yet effective treatment leaves you feeling renewed and refreshed.",
+    "instructor": "Sofia Anderson"
+  },
+  {
+    "id": 11,
+    "title": "Mindful Walking in Nature",
+    "category": "Mindfulness",
+    "duration": 30,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1474418397713-7ede21d49118?w=400&h=300&fit=crop",
+    "description": "Connect with nature through mindful walking meditation. Learn to be fully present as you move, engaging all your senses to experience the natural world around you.",
+    "instructor": "Oliver Green"
+  },
+  {
+    "id": 12,
+    "title": "Aqua Aerobics Class",
+    "category": "Swimming",
+    "duration": 45,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=400&h=300&fit=crop",
+    "description": "Low-impact, high-energy water workout that's easy on joints but tough on calories. Use water resistance to tone muscles while having fun with upbeat music and group energy.",
+    "instructor": "Lisa Martinez"
+  },
+  {
+    "id": 13,
+    "title": "Salsa Dance Basics",
+    "category": "Dance",
+    "duration": 55,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=400&h=300&fit=crop",
+    "description": "Learn the fundamentals of salsa dancing with this beginner-friendly class. Master basic steps, timing, and partner work while experiencing the passion and rhythm of Latin dance.",
+    "instructor": "Carlos Hernandez"
+  },
+  {
+    "id": 14,
+    "title": "Core Strength Training",
+    "category": "Fitness",
+    "duration": 40,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=300&fit=crop",
+    "description": "Build a rock-solid core with targeted exercises that strengthen your abs, back, and stabilizer muscles. Improve posture, balance, and overall functional fitness.",
+    "instructor": "Tyler Brooks"
+  },
+  {
+    "id": 15,
+    "title": "Vinyasa Flow Yoga",
+    "category": "Yoga",
+    "duration": 50,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=400&h=300&fit=crop",
+    "description": "Flow smoothly from one pose to another in this dynamic yoga practice. Synchronize breath with movement to create a moving meditation that builds heat, strength, and flexibility.",
+    "instructor": "Priya Patel"
+  },
+  {
+    "id": 16,
+    "title": "Body Scan Meditation",
+    "category": "Meditation",
+    "duration": 35,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?w=400&h=300&fit=crop",
+    "description": "Journey through your body with systematic awareness, releasing tension and cultivating deep relaxation. This practice helps identify and release stored stress in different body parts.",
+    "instructor": "Maya Singh"
+  },
+  {
+    "id": 17,
+    "title": "Hot Stone Massage",
+    "category": "Massage",
+    "duration": 80,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=400&h=300&fit=crop",
+    "description": "Experience ultimate relaxation with smooth, heated stones placed on key points of your body. The warmth penetrates deep into muscles, melting away tension and promoting profound relaxation.",
+    "instructor": "Jennifer Lee"
+  },
+  {
+    "id": 18,
+    "title": "Mindful Eating Workshop",
+    "category": "Mindfulness",
+    "duration": 90,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop",
+    "description": "Transform your relationship with food through mindful eating practices. Learn to savor each bite, recognize hunger and fullness cues, and develop a healthier, more conscious approach to eating.",
+    "instructor": "Dr. Rebecca Foster"
+  },
+  {
+    "id": 19,
+    "title": "Lap Swimming Endurance",
+    "category": "Swimming",
+    "duration": 50,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?w=400&h=300&fit=crop",
+    "description": "Build cardiovascular endurance and swimming stamina with structured lap workouts. Focus on pacing, breathing, and technique to swim longer and more efficiently.",
+    "instructor": "Nathan Cooper"
+  },
+  {
+    "id": 20,
+    "title": "Hip Hop Dance Class",
+    "category": "Dance",
+    "duration": 60,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1535525153412-5a42439a210d?w=400&h=300&fit=crop",
+    "description": "Get down with urban dance moves in this high-energy hip hop class. Learn choreography, isolations, and grooves while expressing yourself through street dance culture.",
+    "instructor": "Devon Jackson"
+  },
+  {
+    "id": 21,
+    "title": "Full Body Workout",
+    "category": "Fitness",
+    "duration": 45,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=300&fit=crop",
+    "description": "Hit every major muscle group in this comprehensive workout combining strength training, cardio, and functional movements for total body conditioning and calorie burn.",
+    "instructor": "Alex Turner"
+  },
+  {
+    "id": 22,
+    "title": "Yin Yoga Practice",
+    "category": "Yoga",
+    "duration": 75,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?w=400&h=300&fit=crop",
+    "description": "Slow down and hold poses for extended periods in this meditative yoga style. Target deep connective tissues, increase flexibility, and cultivate patience and inner stillness.",
+    "instructor": "Lily Zhang"
+  },
+  {
+    "id": 23,
+    "title": "Sleep Meditation Journey",
+    "category": "Meditation",
+    "duration": 40,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=400&h=300&fit=crop",
+    "description": "Drift into peaceful slumber with this bedtime meditation designed to quiet racing thoughts and prepare your mind and body for deep, restorative sleep.",
+    "instructor": "Sophie Bennett"
+  },
+  {
+    "id": 24,
+    "title": "Aromatherapy Massage",
+    "category": "Massage",
+    "duration": 60,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=400&h=300&fit=crop",
+    "description": "Indulge in a sensory experience combining therapeutic touch with essential oils. The healing power of aromatherapy enhances relaxation and addresses specific physical and emotional needs.",
+    "instructor": "Nina Petrov"
+  },
+  {
+    "id": 25,
+    "title": "Gratitude Reflection Practice",
+    "category": "Mindfulness",
+    "duration": 20,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=400&h=300&fit=crop",
+    "description": "Cultivate appreciation and positive emotions through guided gratitude meditation. Shift your mindset and improve wellbeing by focusing on life's blessings, big and small.",
+    "instructor": "Grace Williams"
+  },
+  {
+    "id": 26,
+    "title": "Water Polo Training",
+    "category": "Swimming",
+    "duration": 70,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+    "description": "Develop swimming skills, treading water techniques, and ball-handling abilities in this dynamic water polo training. Build strength, endurance, and teamwork in the pool.",
+    "instructor": "Coach Ryan Davis"
+  },
+  {
+    "id": 27,
+    "title": "Ballet Fundamentals",
+    "category": "Dance",
+    "duration": 65,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1508807526345-15e9b5f4eaff?w=400&h=300&fit=crop",
+    "description": "Master the foundational positions, movements, and techniques of classical ballet. Develop grace, posture, and strength through disciplined practice at the barre and center floor work.",
+    "instructor": "Victoria Rostova"
+  },
+  {
+    "id": 28,
+    "title": "Upper Body Strength",
+    "category": "Fitness",
+    "duration": 35,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&h=300&fit=crop",
+    "description": "Sculpt and strengthen your chest, back, shoulders, and arms with targeted resistance exercises. Build muscle definition and functional upper body power.",
+    "instructor": "Marcus Reynolds"
+  },
+  {
+    "id": 29,
+    "title": "Hatha Yoga Basics",
+    "category": "Yoga",
+    "duration": 55,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1558017487-06bf9f82613a?w=400&h=300&fit=crop",
+    "description": "Learn traditional yoga postures and breathing techniques in this gentle, foundational practice. Perfect for beginners or anyone seeking a balanced, accessible approach to yoga.",
+    "instructor": "Anika Sharma"
+  },
+  {
+    "id": 30,
+    "title": "Transcendental Meditation",
+    "category": "Meditation",
+    "duration": 30,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=300&fit=crop",
+    "description": "Experience deep rest and expanded awareness through the practice of transcendental meditation. Use personalized mantras to settle the mind into profound states of restful alertness.",
+    "instructor": "Ravi Kumar"
+  },
+  {
+    "id": 31,
+    "title": "Sports Massage Recovery",
+    "category": "Massage",
+    "duration": 45,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1519235106638-30cc49b5dbc5?w=400&h=300&fit=crop",
+    "description": "Accelerate muscle recovery and prevent injury with specialized sports massage techniques. Targeted work on problem areas helps athletes maintain peak performance and flexibility.",
+    "instructor": "Dr. James Wright"
+  },
+  {
+    "id": 32,
+    "title": "Present Moment Awareness",
+    "category": "Mindfulness",
+    "duration": 25,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1515191107209-c28698631303?w=400&h=300&fit=crop",
+    "description": "Anchor yourself in the now with practices that develop present-moment awareness. Let go of past worries and future anxieties to experience life as it unfolds.",
+    "instructor": "Thomas Anderson"
+  },
+  {
+    "id": 33,
+    "title": "Synchronized Swimming",
+    "category": "Swimming",
+    "duration": 55,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1560089168-6516081f5bf1?w=400&h=300&fit=crop",
+    "description": "Combine artistry with athleticism in synchronized swimming. Learn choreographed routines, underwater techniques, and teamwork while building strength and grace in the water.",
+    "instructor": "Marina Volkov"
+  },
+  {
+    "id": 34,
+    "title": "Contemporary Dance Workshop",
+    "category": "Dance",
+    "duration": 70,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=400&h=300&fit=crop",
+    "description": "Explore expressive movement and creative choreography in contemporary dance. Blend techniques from various styles to develop your unique artistic voice and physical expressiveness.",
+    "instructor": "Jasmine Cole"
+  },
+  {
+    "id": 35,
+    "title": "Tabata Interval Training",
+    "category": "Fitness",
+    "duration": 30,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1549576490-b0b4831ef60a?w=400&h=300&fit=crop",
+    "description": "Experience the ultimate in time-efficient workouts with Tabata training. Twenty seconds of all-out effort followed by ten seconds of rest creates maximum results in minimal time.",
+    "instructor": "Brett Hamilton"
+  },
+  {
+    "id": 36,
+    "title": "Restorative Yoga",
+    "category": "Yoga",
+    "duration": 65,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=400&h=300&fit=crop",
+    "description": "Deeply relax and restore your nervous system with supported yoga poses held for extended periods. Props and gentle positioning allow complete surrender and healing rest.",
+    "instructor": "Diana Foster"
+  },
+  {
+    "id": 37,
+    "title": "Loving-Kindness Meditation",
+    "category": "Meditation",
+    "duration": 28,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1447452001602-7090c7ab2db3?w=400&h=300&fit=crop",
+    "description": "Cultivate compassion and loving-kindness toward yourself and others through ancient metta meditation practices. Open your heart and develop greater empathy and connection.",
+    "instructor": "Sharon Lee"
+  },
+  {
+    "id": 38,
+    "title": "Thai Massage Experience",
+    "category": "Massage",
+    "duration": 90,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop",
+    "description": "Experience the ancient art of Thai massage combining acupressure, assisted yoga stretches, and energy work. This dynamic treatment improves flexibility, relieves tension, and balances energy flow.",
+    "instructor": "Somchai Pramoj"
+  },
+  {
+    "id": 39,
+    "title": "Mindful Journaling Session",
+    "category": "Mindfulness",
+    "duration": 40,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=300&fit=crop",
+    "description": "Explore your inner landscape through guided journaling prompts and reflective writing. Process emotions, gain clarity, and deepen self-understanding through the power of mindful writing.",
+    "instructor": "Laura Chen"
+  },
+  {
+    "id": 40,
+    "title": "Backstroke Technique Class",
+    "category": "Swimming",
+    "duration": 50,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?w=400&h=300&fit=crop",
+    "description": "Perfect your backstroke with expert instruction on body position, arm movement, and rotation. Improve speed and efficiency while building core strength and shoulder flexibility.",
+    "instructor": "Coach Emma Stone"
+  },
+  {
+    "id": 41,
+    "title": "Bollywood Dance Fusion",
+    "category": "Dance",
+    "duration": 60,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1535525153412-5a42439a210d?w=400&h=300&fit=crop",
+    "description": "Experience the vibrant energy of Bollywood dancing! This fusion class combines traditional Indian dance styles with modern movements for an exciting, full-body cardio workout.",
+    "instructor": "Neha Kapoor"
+  },
+  {
+    "id": 42,
+    "title": "CrossFit Fundamentals",
+    "category": "Fitness",
+    "duration": 50,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&h=300&fit=crop",
+    "description": "Learn the foundational movements of CrossFit including Olympic lifts, gymnastics skills, and metabolic conditioning. Build strength, power, and functional fitness in a supportive community.",
+    "instructor": "Coach Mike Thompson"
+  },
+  {
+    "id": 43,
+    "title": "Ashtanga Yoga Flow",
+    "category": "Yoga",
+    "duration": 70,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=300&fit=crop",
+    "description": "Practice the traditional Ashtanga yoga sequence with its set series of poses linked by breath. This vigorous, dynamic practice builds heat, strength, and concentration.",
+    "instructor": "Guru Krishnan"
+  },
+  {
+    "id": 44,
+    "title": "Chakra Balancing Meditation",
+    "category": "Meditation",
+    "duration": 32,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1602192509154-0b900ee1f851?w=400&h=300&fit=crop",
+    "description": "Harmonize your energy centers through guided chakra meditation. Use visualization, breath work, and sound to balance and align your seven main chakras for optimal wellbeing.",
+    "instructor": "Yogi Amara"
+  },
+  {
+    "id": 45,
+    "title": "Reflexology Foot Massage",
+    "category": "Massage",
+    "duration": 50,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1556742031-c6961e8560b0?w=400&h=300&fit=crop",
+    "description": "Experience the healing power of reflexology as pressure points on your feet correspond to organs and systems throughout your body. This therapeutic treatment promotes relaxation and natural healing.",
+    "instructor": "Kim Park"
+  },
+  {
+    "id": 46,
+    "title": "Stress Reduction Techniques",
+    "category": "Mindfulness",
+    "duration": 35,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1512690459411-b9245aed614b?w=400&h=300&fit=crop",
+    "description": "Learn practical, science-backed techniques to manage and reduce stress in daily life. Combine breathing exercises, body awareness, and cognitive strategies for lasting stress relief.",
+    "instructor": "Dr. Patricia Moore"
+  },
+  {
+    "id": 47,
+    "title": "Deep Water Running",
+    "category": "Swimming",
+    "duration": 40,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=400&h=300&fit=crop",
+    "description": "Get an intense cardio workout without joint impact through deep water running. Maintain running form in the deep end while water resistance builds strength and endurance.",
+    "instructor": "Tony Garcia"
+  },
+  {
+    "id": 48,
+    "title": "Tango Dance Workshop",
+    "category": "Dance",
+    "duration": 75,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=300&fit=crop",
+    "description": "Discover the passion and elegance of Argentine tango. Learn the embrace, connection, and improvisation that make this partner dance a beautiful conversation through movement.",
+    "instructor": "Pablo Martinez"
+  },
+  {
+    "id": 49,
+    "title": "Lower Body Blast",
+    "category": "Fitness",
+    "duration": 42,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1550345332-09e3ac987658?w=400&h=300&fit=crop",
+    "description": "Sculpt and strengthen your legs, glutes, and core with targeted lower body exercises. Build power, definition, and functional strength through squats, lunges, and plyometric movements.",
+    "instructor": "Kayla Stevens"
+  },
+  {
+    "id": 50,
+    "title": "Kundalini Yoga Practice",
+    "category": "Yoga",
+    "duration": 60,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=400&h=300&fit=crop",
+    "description": "Awaken your inner energy through Kundalini yoga's unique combination of dynamic movements, breath work, meditation, and chanting. Experience profound transformation and heightened awareness.",
+    "instructor": "Sat Nam Singh"
+  },
+  {
+    "id": 51,
+    "title": "Vipassana Meditation Retreat",
+    "category": "Meditation",
+    "duration": 120,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop",
+    "description": "Immerse yourself in Vipassana, an ancient meditation technique for deep self-observation and insight. This intensive practice cultivates mindfulness and understanding of the true nature of reality.",
+    "instructor": "S.N. Goenka"
+  },
+  {
+    "id": 52,
+    "title": "Shiatsu Massage Session",
+    "category": "Massage",
+    "duration": 70,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=400&h=300&fit=crop",
+    "description": "Experience Japanese shiatsu massage using finger pressure on specific meridian points to balance energy flow. This clothed treatment improves circulation, releases tension, and promotes healing.",
+    "instructor": "Kenji Tanaka"
+  },
+  {
+    "id": 53,
+    "title": "Body Awareness Practice",
+    "category": "Mindfulness",
+    "duration": 30,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=300&fit=crop",
+    "description": "Develop deeper connection with your physical self through somatic awareness practices. Notice sensations, movement patterns, and body signals to enhance mind-body integration.",
+    "instructor": "Helena Santos"
+  },
+  {
+    "id": 54,
+    "title": "Breaststroke Mastery",
+    "category": "Swimming",
+    "duration": 48,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1571020881154-8b8d16e84d2e?w=400&h=300&fit=crop",
+    "description": "Refine your breaststroke technique with detailed instruction on timing, glide, and propulsion. Master this technical stroke for efficient swimming and improved endurance.",
+    "instructor": "Coach Linda Park"
+  },
+  {
+    "id": 55,
+    "title": "Jazz Dance Class",
+    "category": "Dance",
+    "duration": 58,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=300&fit=crop",
+    "description": "Explore the energy and style of jazz dance with dynamic movements, leaps, turns, and isolations. Combine technical skills with personal expression for show-stopping performances.",
+    "instructor": "Veronica Jones"
+  },
+  {
+    "id": 56,
+    "title": "Bootcamp Challenge",
+    "category": "Fitness",
+    "duration": 55,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=300&fit=crop",
+    "description": "Push your limits in this military-inspired bootcamp workout. Combine cardio, strength, and endurance training with motivational coaching for maximum results and mental toughness.",
+    "instructor": "Sergeant Chris Morgan"
+  },
+  {
+    "id": 57,
+    "title": "Bikram Hot Yoga",
+    "category": "Yoga",
+    "duration": 90,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=400&h=300&fit=crop",
+    "description": "Practice a set sequence of 26 postures in a heated room to promote flexibility, detoxification, and deep stretching. The heat intensifies the practice and encourages profound release.",
+    "instructor": "Bikram Choudhury"
+  },
+  {
+    "id": 58,
+    "title": "Zen Meditation Practice",
+    "category": "Meditation",
+    "duration": 25,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=400&h=300&fit=crop",
+    "description": "Sit in stillness with Zen meditation (Zazen) to cultivate clear awareness and presence. This traditional Buddhist practice develops concentration and insight into the nature of mind.",
+    "instructor": "Sensei Takeshi"
+  },
+  {
+    "id": 59,
+    "title": "Prenatal Massage",
+    "category": "Massage",
+    "duration": 60,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=400&h=300&fit=crop",
+    "description": "Specially designed massage for expecting mothers to relieve pregnancy discomforts, reduce stress, and promote relaxation. Safe, nurturing touch adapted to each trimester's needs.",
+    "instructor": "Melissa Carter"
+  },
+  {
+    "id": 60,
+    "title": "Mindful Communication",
+    "category": "Mindfulness",
+    "duration": 45,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=400&h=300&fit=crop",
+    "description": "Learn to communicate with awareness, empathy, and authenticity. Practice active listening, non-violent communication, and mindful speaking to improve relationships and reduce conflict.",
+    "instructor": "Dr. Marshall Rosenberg"
+  },
+  {
+    "id": 61,
+    "title": "Open Water Swimming",
+    "category": "Swimming",
+    "duration": 75,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=400&h=300&fit=crop",
+    "description": "Transition from pool to open water with skills for navigation, sighting, and dealing with currents. Build confidence and technique for lake, ocean, or river swimming adventures.",
+    "instructor": "Captain Ben Waters"
+  },
+  {
+    "id": 62,
+    "title": "Flamenco Dance Intensive",
+    "category": "Dance",
+    "duration": 80,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1508807526345-15e9b5f4eaff?w=400&h=300&fit=crop",
+    "description": "Master the passionate art of flamenco with its intricate footwork, arm movements, and emotional expression. Combine rhythm, grace, and fierce intensity in this Spanish dance tradition.",
+    "instructor": "Carmen Rodriguez"
+  },
+  {
+    "id": 63,
+    "title": "Pilates Core Fusion",
+    "category": "Fitness",
+    "duration": 48,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=300&fit=crop",
+    "description": "Strengthen your powerhouse with Pilates-inspired core work. Focus on controlled movements, breath, and precision to build a strong, stable center and improve posture.",
+    "instructor": "Joseph Andrews"
+  },
+  {
+    "id": 64,
+    "title": "Aerial Yoga Flow",
+    "category": "Yoga",
+    "duration": 55,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=300&fit=crop",
+    "description": "Defy gravity in aerial yoga using suspended silk hammocks. Decompress the spine, build core strength, and explore inversions in a playful, supportive environment.",
+    "instructor": "Sky Martinez"
+  },
+  {
+    "id": 65,
+    "title": "Breath Awareness Meditation",
+    "category": "Meditation",
+    "duration": 18,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?w=400&h=300&fit=crop",
+    "description": "Return to the simple yet profound practice of watching the breath. Develop concentration and calm by anchoring awareness in the natural rhythm of breathing.",
+    "instructor": "Thich Nhat Hanh"
+  },
+  {
+    "id": 66,
+    "title": "Lymphatic Drainage Massage",
+    "category": "Massage",
+    "duration": 65,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=400&h=300&fit=crop",
+    "description": "Support your body's natural detoxification with gentle lymphatic drainage techniques. This specialized massage reduces swelling, boosts immunity, and promotes overall wellness.",
+    "instructor": "Dr. Emily Harris"
+  },
+  {
+    "id": 67,
+    "title": "Emotional Balance Practice",
+    "category": "Mindfulness",
+    "duration": 38,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=400&h=300&fit=crop",
+    "description": "Develop emotional intelligence and resilience through mindfulness practices. Learn to observe, accept, and regulate emotions skillfully for greater wellbeing and balanced living.",
+    "instructor": "Dr. Daniel Goleman"
+  },
+  {
+    "id": 68,
+    "title": "Butterfly Stroke Training",
+    "category": "Swimming",
+    "duration": 52,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?w=400&h=300&fit=crop",
+    "description": "Master the most challenging swimming stroke with focused training on dolphin kick, timing, and arm recovery. Build power and technique for butterfly excellence.",
+    "instructor": "Coach Michael Phelps"
+  },
+  {
+    "id": 69,
+    "title": "Tap Dance Fundamentals",
+    "category": "Dance",
+    "duration": 62,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1535525153412-5a42439a210d?w=400&h=300&fit=crop",
+    "description": "Learn the rhythmic art of tap dancing with basic steps, sounds, and combinations. Turn your feet into percussion instruments while developing timing, coordination, and musicality.",
+    "instructor": "Gregory Hines Jr."
+  },
+  {
+    "id": 70,
+    "title": "Barre Fitness Sculpt",
+    "category": "Fitness",
+    "duration": 50,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1549576490-b0b4831ef60a?w=400&h=300&fit=crop",
+    "description": "Sculpt and tone with ballet-inspired barre work combined with Pilates and yoga. Small, controlled movements target specific muscle groups for lean, defined results.",
+    "instructor": "Lotte Berk"
+  },
+  {
+    "id": 71,
+    "title": "Iyengar Yoga Precision",
+    "category": "Yoga",
+    "duration": 68,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=400&h=300&fit=crop",
+    "description": "Practice yoga with meticulous attention to alignment and precision using props for support. This therapeutic approach builds strength, flexibility, and body awareness through detailed instruction.",
+    "instructor": "B.K.S. Iyengar"
+  },
+  {
+    "id": 72,
+    "title": "Mantra Meditation",
+    "category": "Meditation",
+    "duration": 22,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=400&h=300&fit=crop",
+    "description": "Use the power of sacred sound and repetition to focus the mind and access deeper states of consciousness. Chant traditional mantras to create vibration and transformation.",
+    "instructor": "Swami Sivananda"
+  },
+  {
+    "id": 73,
+    "title": "Trigger Point Therapy",
+    "category": "Massage",
+    "duration": 55,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1519235106638-30cc49b5dbc5?w=400&h=300&fit=crop",
+    "description": "Release chronic muscle tension and pain through targeted trigger point therapy. Apply precise pressure to knots and adhesions to restore normal muscle function and range of motion.",
+    "instructor": "Dr. Janet Travell"
+  },
+  {
+    "id": 74,
+    "title": "Sensory Awareness Session",
+    "category": "Mindfulness",
+    "duration": 28,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1515191107209-c28698631303?w=400&h=300&fit=crop",
+    "description": "Awaken your senses and deepen present-moment awareness through guided exploration of sight, sound, touch, taste, and smell. Enhance perception and connection to your environment.",
+    "instructor": "Charlotte Selver"
+  },
+  {
+    "id": 75,
+    "title": "Pool Cardio Workout",
+    "category": "Swimming",
+    "duration": 45,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1560089168-6516081f5bf1?w=400&h=300&fit=crop",
+    "description": "Get your heart rate up with dynamic pool-based cardio exercises. Jump, run, and move through water for a high-intensity, low-impact workout that burns calories and builds endurance.",
+    "instructor": "Jennifer Scott"
+  },
+  {
+    "id": 76,
+    "title": "Afro-Caribbean Dance",
+    "category": "Dance",
+    "duration": 68,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=400&h=300&fit=crop",
+    "description": "Celebrate cultural heritage through vibrant Afro-Caribbean dance movements. Experience joyful, rhythmic expression with roots in African and Caribbean traditions.",
+    "instructor": "Tanya Baptiste"
+  },
+  {
+    "id": 77,
+    "title": "Spinning Cycle Class",
+    "category": "Fitness",
+    "duration": 52,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&h=300&fit=crop",
+    "description": "Ride to the beat with high-energy indoor cycling. Climb hills, sprint, and recover in this intense cardio workout that builds leg strength and cardiovascular endurance.",
+    "instructor": "Johnny G"
+  },
+  {
+    "id": 78,
+    "title": "Jivamukti Yoga",
+    "category": "Yoga",
+    "duration": 72,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?w=400&h=300&fit=crop",
+    "description": "Practice vigorous vinyasa yoga infused with philosophy, music, and activism. This modern yet spiritual approach combines physical practice with ethical living and devotion.",
+    "instructor": "Sharon Gannon"
+  },
+  {
+    "id": 79,
+    "title": "Sound Bath Meditation",
+    "category": "Meditation",
+    "duration": 45,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1602192509154-0b900ee1f851?w=400&h=300&fit=crop",
+    "description": "Immerse yourself in healing vibrations from singing bowls, gongs, and chimes. Experience deep relaxation and meditative states through therapeutic sound frequencies.",
+    "instructor": "Crystal Sound"
+  },
+  {
+    "id": 80,
+    "title": "Cupping Therapy",
+    "category": "Massage",
+    "duration": 58,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1556742031-c6961e8560b0?w=400&h=300&fit=crop",
+    "description": "Experience ancient Chinese cupping therapy using suction cups to release fascial restrictions, improve circulation, and promote healing. This traditional treatment offers powerful therapeutic benefits.",
+    "instructor": "Dr. Li Wei"
+  },
+  {
+    "id": 81,
+    "title": "Compassion Meditation",
+    "category": "Mindfulness",
+    "duration": 35,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1512690459411-b9245aed614b?w=400&h=300&fit=crop",
+    "description": "Develop compassion for yourself and all beings through guided meditation practices. Soften your heart, reduce judgment, and cultivate genuine care and kindness.",
+    "instructor": "Pema Chödrön"
+  },
+  {
+    "id": 82,
+    "title": "Triathlon Swim Training",
+    "category": "Swimming",
+    "duration": 80,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?w=400&h=300&fit=crop",
+    "description": "Prepare for triathlon swimming with specialized training in pacing, drafting, and mass start strategies. Build the endurance and skills needed for race-day success.",
+    "instructor": "Coach Dave Scott"
+  },
+  {
+    "id": 83,
+    "title": "Swing Dance Social",
+    "category": "Dance",
+    "duration": 90,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=300&fit=crop",
+    "description": "Swing out to the jazz age with Lindy Hop, Charleston, and other swing dance styles. Learn partner dancing that's playful, energetic, and endlessly fun.",
+    "instructor": "Frankie Manning"
+  },
+  {
+    "id": 84,
+    "title": "Kettlebell Workout",
+    "category": "Fitness",
+    "duration": 38,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1550345332-09e3ac987658?w=400&h=300&fit=crop",
+    "description": "Build functional strength and explosive power with kettlebell training. Master swings, snatches, and Turkish get-ups for total body conditioning and athleticism.",
+    "instructor": "Pavel Tsatsouline"
+  },
+  {
+    "id": 85,
+    "title": "Rocket Yoga Power",
+    "category": "Yoga",
+    "duration": 64,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=400&h=300&fit=crop",
+    "description": "Take flight with Rocket Yoga, a modified Ashtanga practice designed to make yoga accessible yet challenging. Build strength, flexibility, and confidence through dynamic sequences.",
+    "instructor": "Larry Schultz"
+  },
+  {
+    "id": 86,
+    "title": "Qigong Energy Flow",
+    "category": "Meditation",
+    "duration": 42,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=400&h=300&fit=crop",
+    "description": "Cultivate and balance life energy through gentle Chinese qigong movements and breathwork. This ancient practice promotes health, vitality, and inner harmony.",
+    "instructor": "Master Yang"
+  },
+  {
+    "id": 87,
+    "title": "Myofascial Release",
+    "category": "Massage",
+    "duration": 72,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400&h=300&fit=crop",
+    "description": "Release fascial restrictions and restore mobility with sustained, gentle pressure techniques. This therapeutic approach addresses chronic pain patterns and improves functional movement.",
+    "instructor": "John F. Barnes"
+  },
+  {
+    "id": 88,
+    "title": "Self-Compassion Practice",
+    "category": "Mindfulness",
+    "duration": 32,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=400&h=300&fit=crop",
+    "description": "Learn to treat yourself with the same kindness you'd offer a good friend. Develop self-compassion to reduce self-criticism, boost resilience, and enhance emotional wellbeing.",
+    "instructor": "Dr. Kristin Neff"
+  },
+  {
+    "id": 89,
+    "title": "Water Resistance Training",
+    "category": "Swimming",
+    "duration": 50,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=400&h=300&fit=crop",
+    "description": "Use water's natural resistance for strength training without weights. Build muscle, improve tone, and increase power with aquatic resistance exercises.",
+    "instructor": "Mary Sanders"
+  },
+  {
+    "id": 90,
+    "title": "Irish Step Dancing",
+    "category": "Dance",
+    "duration": 56,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1535525153412-5a42439a210d?w=400&h=300&fit=crop",
+    "description": "Master the precise footwork and rigid upper body characteristic of Irish step dancing. Experience the joy of traditional Celtic dance with intricate rhythms and patterns.",
+    "instructor": "Michael Flatley"
+  },
+  {
+    "id": 91,
+    "title": "TRX Suspension Training",
+    "category": "Fitness",
+    "duration": 46,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=300&fit=crop",
+    "description": "Challenge your entire body using suspension straps for functional strength training. Leverage gravity and body weight to build core stability, strength, and balance.",
+    "instructor": "Randy Hetrick"
+  },
+  {
+    "id": 92,
+    "title": "Forrest Yoga Intensive",
+    "category": "Yoga",
+    "duration": 82,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop",
+    "description": "Experience healing through this modern, vigorous yoga style emphasizing core strength, breathwork, and emotional release. Forrest Yoga helps you reconnect with your authentic self.",
+    "instructor": "Ana Forrest"
+  },
+  {
+    "id": 93,
+    "title": "Walking Meditation Path",
+    "category": "Meditation",
+    "duration": 35,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1474418397713-7ede21d49118?w=400&h=300&fit=crop",
+    "description": "Combine movement with meditation as you walk slowly and mindfully. Each step becomes a practice in presence, connecting you deeply with the earth and the present moment.",
+    "instructor": "Jon Kabat-Zinn"
+  },
+  {
+    "id": 94,
+    "title": "Craniosacral Therapy",
+    "category": "Massage",
+    "duration": 68,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=400&h=300&fit=crop",
+    "description": "Experience gentle, hands-on treatment that releases restrictions in the craniosacral system. This subtle therapy promotes deep relaxation and supports the body's natural healing processes.",
+    "instructor": "Dr. John Upledger"
+  },
+  {
+    "id": 95,
+    "title": "Loving Awareness Meditation",
+    "category": "Mindfulness",
+    "duration": 26,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1515191107209-c28698631303?w=400&h=300&fit=crop",
+    "description": "Combine mindful awareness with loving presence in this heart-centered meditation. Observe your experience with gentle acceptance and compassionate attention.",
+    "instructor": "Jack Kornfield"
+  },
+  {
+    "id": 96,
+    "title": "Advanced Sprint Swimming",
+    "category": "Swimming",
+    "duration": 62,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=400&h=300&fit=crop",
+    "description": "Develop explosive speed and power with advanced sprint swimming techniques. Work on starts, turns, underwater work, and race-pace training for competitive excellence.",
+    "instructor": "Coach Caeleb Dressel"
+  },
+  {
+    "id": 97,
+    "title": "Breakdancing Basics",
+    "category": "Dance",
+    "duration": 72,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=300&fit=crop",
+    "description": "Learn the foundations of breaking with toprock, downrock, power moves, and freezes. This athletic, creative street dance style builds strength, coordination, and style.",
+    "instructor": "B-Boy Crazy Legs"
+  },
+  {
+    "id": 98,
+    "title": "Functional Movement Training",
+    "category": "Fitness",
+    "duration": 54,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=300&fit=crop",
+    "description": "Train movements, not just muscles, with functional exercises that improve daily life activities. Build strength, mobility, and coordination for real-world performance.",
+    "instructor": "Gray Cook"
+  },
+  {
+    "id": 99,
+    "title": "Acro Yoga Partner Flow",
+    "category": "Yoga",
+    "duration": 76,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=300&fit=crop",
+    "description": "Blend yoga, acrobatics, and Thai massage in this playful partner practice. Build trust, communication, and strength while flying and supporting each other through creative sequences.",
+    "instructor": "Jason Nemer"
+  },
+  {
+    "id": 100,
+    "title": "Sunset Gratitude Meditation",
+    "category": "Meditation",
+    "duration": 30,
+    "rating": 5.0,
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=300&fit=crop",
+    "description": "Close your day with reflection and gratitude as the sun sets. This peaceful meditation helps you appreciate the day's blessings, release what no longer serves you, and welcome restful evening.",
+    "instructor": "Deepak Chopra"
+  }
+]

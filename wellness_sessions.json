@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "Morning Yoga Flow",
+    "category": "Yoga",
+    "duration": 45,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 2,
+    "title": "Guided Meditation for Beginners",
+    "category": "Meditation",
+    "duration": 20,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 3,
+    "title": "Power Yoga Challenge",
+    "category": "Yoga",
+    "duration": 60,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 4,
+    "title": "Deep Tissue Massage Session",
+    "category": "Massage",
+    "duration": 90,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 5,
+    "title": "Mindfulness Meditation",
+    "category": "Meditation",
+    "duration": 30,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1508672019048-805c876b67e2?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 6,
+    "title": "Vinyasa Flow Yoga",
+    "category": "Yoga",
+    "duration": 50,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 7,
+    "title": "Swedish Massage Therapy",
+    "category": "Massage",
+    "duration": 75,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 8,
+    "title": "Evening Relaxation Meditation",
+    "category": "Meditation",
+    "duration": 25,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 9,
+    "title": "Hot Stone Massage",
+    "category": "Massage",
+    "duration": 80,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 10,
+    "title": "Yin Yoga Practice",
+    "category": "Yoga",
+    "duration": 75,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 11,
+    "title": "Breath Work Session",
+    "category": "Meditation",
+    "duration": 15,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1545389336-cf090694435e?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 12,
+    "title": "Aromatherapy Massage",
+    "category": "Massage",
+    "duration": 60,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 13,
+    "title": "Sunrise Yoga Session",
+    "category": "Yoga",
+    "duration": 40,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 14,
+    "title": "Body Scan Meditation",
+    "category": "Meditation",
+    "duration": 35,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 15,
+    "title": "Sports Massage Recovery",
+    "category": "Massage",
+    "duration": 45,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1519235106638-30cc49b5dbc5?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 16,
+    "title": "Restorative Yoga",
+    "category": "Yoga",
+    "duration": 55,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 17,
+    "title": "Sleep Meditation",
+    "category": "Meditation",
+    "duration": 40,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 18,
+    "title": "Thai Massage Experience",
+    "category": "Massage",
+    "duration": 90,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 19,
+    "title": "Hatha Yoga Basics",
+    "category": "Yoga",
+    "duration": 50,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1558017487-06bf9f82613a?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 20,
+    "title": "Walking Meditation",
+    "category": "Meditation",
+    "duration": 30,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1474418397713-7ede21d49118?w=400&h=300&fit=crop"
+  }
+]

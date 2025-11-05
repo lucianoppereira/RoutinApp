@@ -1,0 +1,169 @@
+{
+  "sessions": [
+    {
+      "id": "1",
+      "title": "Morning Yoga Flow",
+      "category": "Yoga",
+      "duration": 45,
+      "rating": 4.8,
+      "image": "https://picsum.photos/400/300?random=1",
+      "description": "Start your day with this energizing yoga flow that combines strength, flexibility, and mindfulness. Perfect for beginners and intermediate practitioners. This flowing sequence will awaken your body and prepare you for the day ahead.",
+      "instructor": "Sarah Johnson",
+      "date": "2024-01-15"
+    },
+    {
+      "id": "2",
+      "title": "Meditation for Beginners",
+      "category": "Meditation",
+      "duration": 20,
+      "rating": 4.9,
+      "image": "https://picsum.photos/400/300?random=2",
+      "description": "Learn the basics of mindfulness meditation with guided instruction. This session will teach you breathing techniques, posture, and how to quiet your mind. Ideal for those new to meditation.",
+      "instructor": "Michael Chen",
+      "date": "2024-01-16"
+    },
+    {
+      "id": "3",
+      "title": "Power Yoga",
+      "category": "Yoga",
+      "duration": 60,
+      "rating": 4.7,
+      "image": "https://picsum.photos/400/300?random=3",
+      "description": "Intense yoga practice designed to build strength, endurance, and flexibility. This dynamic session combines traditional yoga poses with vigorous movements for a full-body workout.",
+      "instructor": "Emma Wilson",
+      "date": "2024-01-17"
+    },
+    {
+      "id": "4",
+      "title": "Deep Relaxation",
+      "category": "Meditation",
+      "duration": 30,
+      "rating": 4.9,
+      "image": "https://picsum.photos/400/300?random=4",
+      "description": "Guided meditation for deep relaxation and stress relief. Use progressive muscle relaxation and visualization techniques to release tension and achieve a state of deep calm.",
+      "instructor": "David Lee",
+      "date": "2024-01-18"
+    },
+    {
+      "id": "5",
+      "title": "HIIT Workout",
+      "category": "Fitness",
+      "duration": 30,
+      "rating": 4.6,
+      "image": "https://picsum.photos/400/300?random=5",
+      "description": "High-intensity interval training session for maximum calorie burn and fitness gains. Short bursts of intense exercise followed by brief recovery periods. Get results in minimal time.",
+      "instructor": "Alex Martinez",
+      "date": "2024-01-19"
+    },
+    {
+      "id": "6",
+      "title": "Swedish Massage Techniques",
+      "category": "Massage",
+      "duration": 90,
+      "rating": 4.9,
+      "image": "https://picsum.photos/400/300?random=6",
+      "description": "Learn professional Swedish massage techniques for relaxation and muscle tension relief. Covers effleurage, petrissage, and other classic massage strokes.",
+      "instructor": "Lisa Anderson",
+      "date": "2024-01-20"
+    },
+    {
+      "id": "7",
+      "title": "Vinyasa Flow",
+      "category": "Yoga",
+      "duration": 50,
+      "rating": 4.8,
+      "image": "https://picsum.photos/400/300?random=7",
+      "description": "Dynamic flowing yoga sequence that synchronizes breath with movement. Build heat, increase flexibility, and find your flow in this intermediate-level practice.",
+      "instructor": "Sarah Johnson",
+      "date": "2024-01-21"
+    },
+    {
+      "id": "8",
+      "title": "Mindful Walking",
+      "category": "Meditation",
+      "duration": 25,
+      "rating": 4.7,
+      "image": "https://picsum.photos/400/300?random=8",
+      "description": "Combine meditation with gentle movement in this mindful walking practice. Learn to be present and aware while moving, connecting mind and body.",
+      "instructor": "Michael Chen",
+      "date": "2024-01-22"
+    },
+    {
+      "id": "9",
+      "title": "Core Strength Training",
+      "category": "Fitness",
+      "duration": 35,
+      "rating": 4.8,
+      "image": "https://picsum.photos/400/300?random=9",
+      "description": "Target your core muscles with this focused strength training session. Build a strong foundation for better posture, balance, and overall fitness.",
+      "instructor": "Alex Martinez",
+      "date": "2024-01-23"
+    },
+    {
+      "id": "10",
+      "title": "Restorative Yoga",
+      "category": "Yoga",
+      "duration": 60,
+      "rating": 4.9,
+      "image": "https://picsum.photos/400/300?random=10",
+      "description": "Gentle, relaxing yoga practice focused on restoration and healing. Hold poses for extended periods using props for support. Perfect for stress relief and recovery.",
+      "instructor": "Emma Wilson",
+      "date": "2024-01-24"
+    },
+    {
+      "id": "11",
+      "title": "Breath Work Fundamentals",
+      "category": "Meditation",
+      "duration": 15,
+      "rating": 4.6,
+      "image": "https://picsum.photos/400/300?random=11",
+      "description": "Master essential breathing techniques for stress reduction and energy enhancement. Learn pranayama practices that you can use anywhere, anytime.",
+      "instructor": "David Lee",
+      "date": "2024-01-25"
+    },
+    {
+      "id": "12",
+      "title": "Full Body Stretch",
+      "category": "Fitness",
+      "duration": 20,
+      "rating": 4.7,
+      "image": "https://picsum.photos/400/300?random=12",
+      "description": "Comprehensive stretching routine targeting all major muscle groups. Improve flexibility, reduce muscle tension, and prevent injury with this daily stretch sequence.",
+      "instructor": "Lisa Anderson",
+      "date": "2024-01-26"
+    },
+    {
+      "id": "13",
+      "title": "Yin Yoga",
+      "category": "Yoga",
+      "duration": 75,
+      "rating": 4.8,
+      "image": "https://picsum.photos/400/300?random=13",
+      "description": "Slow-paced yoga practice with poses held for longer periods. Target deep connective tissues and promote flexibility while cultivating mindfulness.",
+      "instructor": "Sarah Johnson",
+      "date": "2024-01-27"
+    },
+    {
+      "id": "14",
+      "title": "Sleep Meditation",
+      "category": "Meditation",
+      "duration": 40,
+      "rating": 4.9,
+      "image": "https://picsum.photos/400/300?random=14",
+      "description": "Guided meditation designed to help you fall asleep peacefully. Uses body scan, visualization, and relaxation techniques to quiet the mind and prepare for rest.",
+      "instructor": "Michael Chen",
+      "date": "2024-01-28"
+    },
+    {
+      "id": "15",
+      "title": "Cardio Blast",
+      "category": "Fitness",
+      "duration": 25,
+      "rating": 4.6,
+      "image": "https://picsum.photos/400/300?random=15",
+      "description": "Heart-pumping cardio workout to boost metabolism and improve cardiovascular health. No equipment needed - just your body and determination.",
+      "instructor": "Alex Martinez",
+      "date": "2024-01-29"
+    }
+  ]
+}
