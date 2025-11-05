@@ -2,6 +2,7 @@ package com.aldeanapps.routinapp.presentation.sessions
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.aldeanapps.routinapp.domain.model.Category
 import com.aldeanapps.routinapp.domain.model.WellnessSession
 import com.aldeanapps.routinapp.domain.usecase.GetSessionsUseCase
 import com.aldeanapps.routinapp.domain.usecase.ToggleFavoriteUseCase
@@ -37,9 +38,7 @@ class SessionsViewModel @Inject constructor(
     
     private var allSessions: List<WellnessSession> = emptyList()
     
-    val categories: List<String> = listOf(
-        "Yoga", "Meditation", "Massage", "Mindfulness", "Swimming", "Dance", "Fitness"
-    )
+    val categories: List<String> = Category.getDisplayNames()
     
     init {
         loadSessions()

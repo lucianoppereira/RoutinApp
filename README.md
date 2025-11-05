@@ -2,7 +2,7 @@
 
 A modern Android wellness application built with Jetpack Compose that allows users to browse wellness sessions, view detailed information, and manage favorites.
 
-## ?? Features
+## Features
 
 - **Splash Screen**: Animated entry point with wellness imagery
 - **Sessions List**: Browse wellness sessions with search and category filtering
@@ -11,7 +11,7 @@ A modern Android wellness application built with Jetpack Compose that allows use
 - **Bottom Navigation**: Easy navigation between Sessions and Favorites
 - **Material Design 3**: Modern UI with custom wellness color theme
 
-## ??? Technical Stack
+## Technical Stack
 
 ### Core Technologies
 - **Kotlin** - Primary programming language
@@ -36,18 +36,18 @@ A modern Android wellness application built with Jetpack Compose that allows use
 - **Coil** - Image loading and caching
 - **Navigation Compose** - Type-safe navigation system
 
-## ?? Getting Started
+## Getting Started
 
 ### Prerequisites
 - Android Studio Hedgehog (2023.1.1) or later
 - JDK 11 or higher
-- Android SDK API level 21 or higher
+- Android SDK API level 27 or higher
 
 ### Installation & Setup
 
 1. **Clone the repository**
    `ash
-   git clone https://github.com/yourusername/routinapp.git
+   git clone https://github.com/lucianoppereira/routinapp.git
    cd routinapp
    `
 
@@ -73,10 +73,10 @@ The app currently uses local JSON data for development. To connect to a real API
 2. Ensure your API returns JSON matching the WellnessSessionDto structure
 3. Update the WellnessApiService interface methods as needed
 
-## ?? Screenshots
+## Screenshots
 
 *(Add screenshots of your app here)*
 
-## ?? License
+## License
 
 This project is licensed under the MIT License.

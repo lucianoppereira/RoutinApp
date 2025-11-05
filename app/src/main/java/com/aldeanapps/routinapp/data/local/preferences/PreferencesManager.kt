@@ -19,48 +19,40 @@ class PreferencesManager @Inject constructor(
         Context.MODE_PRIVATE
     )
 
-    /**
-     * Save a set of favorite session IDs
-     */
-    fun saveFavoriteIds(favoriteIds: Set<Int>) {
-        sharedPreferences.edit()
-            .putStringSet(KEY_FAVORITE_IDS, favoriteIds.map { it.toString() }.toSet())
-            .apply()
-    }
-
-    /**
-     * Get the set of favorite session IDs
-     */
-    fun getFavoriteIds(): Set<Int> {
-        return sharedPreferences.getStringSet(KEY_FAVORITE_IDS, emptySet())
-            ?.mapNotNull { it.toIntOrNull() }
-            ?.toSet()
-            ?: emptySet()
-    }
+    var favoriteIds: List<Int>
+        get() = sharedPreferences.getStringSet(
+            KEY_FAVORITE_IDS,
+            emptySet()
+        )?.mapNotNull { it.toIntOrNull() } ?: emptyList()
+        set(value) {
+            sharedPreferences.edit()
+                .putStringSet(KEY_FAVORITE_IDS, value.map { it.toString() }.toSet())
+                .apply()
+        }
 
     /**
      * Add a session ID to favorites
      */
     fun addFavorite(sessionId: Int) {
-        val currentFavorites = getFavoriteIds().toMutableSet()
+        val currentFavorites = favoriteIds.toMutableList()
         currentFavorites.add(sessionId)
-        saveFavoriteIds(currentFavorites)
+        favoriteIds = currentFavorites
     }
 
     /**
      * Remove a session ID from favorites
      */
     fun removeFavorite(sessionId: Int) {
-        val currentFavorites = getFavoriteIds().toMutableSet()
+        val currentFavorites = favoriteIds.toMutableList()
         currentFavorites.remove(sessionId)
-        saveFavoriteIds(currentFavorites)
+        favoriteIds = currentFavorites
     }
 
     /**
      * Check if a session is favorited
      */
     fun isFavorite(sessionId: Int): Boolean {
-        return getFavoriteIds().contains(sessionId)
+        return favoriteIds.contains(sessionId)
     }
 
     /**

@@ -9,7 +9,7 @@ import javax.inject.Inject
 class GetFavoriteIdsUseCase @Inject constructor(
     private val preferencesManager: PreferencesManager
 ) {
-    operator fun invoke(): Set<Int> {
-        return preferencesManager.getFavoriteIds()
+    operator fun invoke(): List<Int> {
+        return preferencesManager.favoriteIds
     }
 }

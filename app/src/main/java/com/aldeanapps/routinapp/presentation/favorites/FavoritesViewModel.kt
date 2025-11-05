@@ -2,6 +2,7 @@ package com.aldeanapps.routinapp.presentation.favorites
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.aldeanapps.routinapp.domain.model.Category
 import com.aldeanapps.routinapp.domain.model.WellnessSession
 import com.aldeanapps.routinapp.domain.usecase.GetFavoriteSessionsUseCase
 import com.aldeanapps.routinapp.domain.usecase.ToggleFavoriteUseCase
@@ -35,9 +36,7 @@ class FavoritesViewModel @Inject constructor(
     
     private var allFavorites: List<WellnessSession> = emptyList()
     
-    val categories: List<String> = listOf(
-        "Yoga", "Meditation", "Massage", "Mindfulness", "Swimming", "Dance", "Fitness"
-    )
+    val categories: List<String> = Category.getDisplayNames()
     
     init {
         observeFavorites()

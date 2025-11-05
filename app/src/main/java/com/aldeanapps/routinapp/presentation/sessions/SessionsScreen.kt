@@ -55,11 +55,16 @@ import com.aldeanapps.routinapp.presentation.common.theme.Size100
  */
 @Composable
 fun SessionsScreen(
+    searchQuery: String = "",
     onNavigateToDetail: (Int) -> Unit,
     viewModel: SessionsViewModel = hiltViewModel()
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     val selectedCategory by viewModel.selectedCategory.collectAsStateWithLifecycle()
+
+    LaunchedEffect(searchQuery) {
+        viewModel.onSearchQueryChange(searchQuery)
+    }
     
     Column(modifier = Modifier.fillMaxSize()) {
         when (val state = uiState) {

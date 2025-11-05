@@ -30,6 +30,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -60,11 +61,16 @@ import com.aldeanapps.routinapp.presentation.common.theme.Size300
  */
 @Composable
 fun SessionDetailScreen(
+    sessionId: Int,
     onNavigateBack: () -> Unit,
     viewModel: SessionDetailViewModel = hiltViewModel()
 ) {
+    LaunchedEffect(sessionId) {
+        viewModel.setSessionId(sessionId)
+    }
+
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
-    
+
     Box(modifier = Modifier.fillMaxSize()) {
         when (val state = uiState) {
             is UiState.Loading -> {

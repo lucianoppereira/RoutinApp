@@ -14,8 +14,6 @@ import javax.inject.Singleton
 /**
  * Implementation of WellnessRepository.
  * Handles data operations and coordinates between API and local storage.
- * 
- * @Singleton ensures single instance for cache management.
  */
 @Singleton
 class WellnessRepositoryImpl @Inject constructor(
@@ -29,7 +27,7 @@ class WellnessRepositoryImpl @Inject constructor(
         return try {
             val response = apiService.getSessions()
             if (response.isSuccessful && response.body() != null) {
-                val favoriteIds = preferencesManager.getFavoriteIds()
+                val favoriteIds = preferencesManager.favoriteIds
                 val sessions = response.body()!!.map { dto ->
                     dto.toDomain(isFavorite = favoriteIds.contains(dto.id))
                 }
@@ -47,7 +45,7 @@ class WellnessRepositoryImpl @Inject constructor(
         return try {
             val response = apiService.getSessionsByCategory(category)
             if (response.isSuccessful && response.body() != null) {
-                val favoriteIds = preferencesManager.getFavoriteIds()
+                val favoriteIds = preferencesManager.favoriteIds
                 val sessions = response.body()!!.map { dto ->
                     dto.toDomain(isFavorite = favoriteIds.contains(dto.id))
                 }
@@ -63,13 +61,11 @@ class WellnessRepositoryImpl @Inject constructor(
     
     override suspend fun getSessionById(id: Int): Result<WellnessSession> {
         return try {
-            // First check cache
             val cachedSession = sessionsCache.value.find { it.id == id }
             if (cachedSession != null) {
                 return Result.success(cachedSession)
             }
-            
-            // If not in cache, fetch from API
+
             val response = apiService.getSessionById(id)
             if (response.isSuccessful && response.body() != null) {
                 val session = response.body()!!.toDomain(
@@ -87,8 +83,7 @@ class WellnessRepositoryImpl @Inject constructor(
     override suspend fun toggleFavorite(sessionId: Int): Result<Boolean> {
         return try {
             val isFavorite = preferencesManager.toggleFavorite(sessionId)
-            
-            // Update cache
+
             val updatedSessions = sessionsCache.value.map { session ->
                 if (session.id == sessionId) {
                     session.copy(isFavorite = isFavorite)

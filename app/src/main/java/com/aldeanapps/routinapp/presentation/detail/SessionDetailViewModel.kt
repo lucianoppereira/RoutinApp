@@ -21,15 +21,16 @@ import javax.inject.Inject
 class SessionDetailViewModel @Inject constructor(
     private val getSessionByIdUseCase: GetSessionByIdUseCase,
     private val toggleFavoriteUseCase: ToggleFavoriteUseCase,
-    savedStateHandle: SavedStateHandle
 ) : ViewModel() {
     
-    private val sessionId: Int = checkNotNull(savedStateHandle["sessionId"])
+    private val _sessionId = MutableStateFlow(0)
+    val sessionId: StateFlow<Int> = _sessionId
     
     private val _uiState = MutableStateFlow<UiState<WellnessSession>>(UiState.Loading)
     val uiState: StateFlow<UiState<WellnessSession>> = _uiState.asStateFlow()
-    
-    init {
+
+    fun setSessionId(id: Int) {
+        _sessionId.value = id
         loadSession()
     }
     
@@ -37,7 +38,7 @@ class SessionDetailViewModel @Inject constructor(
         viewModelScope.launch {
             _uiState.value = UiState.Loading
             
-            getSessionByIdUseCase(sessionId).fold(
+            getSessionByIdUseCase(_sessionId.value).fold(
                 onSuccess = { session ->
                     _uiState.value = UiState.Success(session)
                 },
@@ -52,7 +53,7 @@ class SessionDetailViewModel @Inject constructor(
     
     fun toggleFavorite() {
         viewModelScope.launch {
-            toggleFavoriteUseCase(sessionId).onSuccess { isFavorite ->
+            toggleFavoriteUseCase(_sessionId.value).onSuccess { isFavorite ->
                 val currentState = _uiState.value
                 if (currentState is UiState.Success) {
                     _uiState.value = UiState.Success(

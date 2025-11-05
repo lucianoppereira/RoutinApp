@@ -26,6 +26,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -50,11 +51,16 @@ import com.aldeanapps.routinapp.presentation.common.theme.Size100
  */
 @Composable
 fun FavoritesScreen(
+    searchQuery: String = "",
     onNavigateToDetail: (Int) -> Unit,
     viewModel: FavoritesViewModel = hiltViewModel()
 ) {
     val favoriteSessions by viewModel.favoriteSessions.collectAsStateWithLifecycle()
     val selectedCategory by viewModel.selectedCategory.collectAsStateWithLifecycle()
+
+    LaunchedEffect(searchQuery) {
+        viewModel.onSearchQueryChange(searchQuery)
+    }
     
     Column(modifier = Modifier.fillMaxSize()) {
         FilterRow(
